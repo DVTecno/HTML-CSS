@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ej6</title>
+    </head>
+    <body>
+        <header>
+            <h1>Registrar un usuario</h1>
+        </header>
+        <form method="post" action="mailto:verasdiegoca78@gmail.com" id="regist"
+            enctype="multipart/form-data">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"
+                placeholder="Ingrese su nombre"><br>
+            <label for="password">password:</label><br>
+            <input type="password" id="password" placeholder="password"><br>
+            <label for="number">Ingrese edad del usuario:</label><br>
+            <input type="number" id="numbre" placeholder="0"><br>
+            <label for="date">Fecha de nacimiento del usuario:</label><br>
+            <input type="date" id="date"><br>
+
+            <input type="radio" id="hombre" name="sexo" value="1">
+            <label for="hombre">Hombre</label><br>
+            <input type="radio" id="mujer" name="sexo" value="2">
+            <label for="mujer">Mujer</label><br>
+            <input type="radio" id="prefiero-no-decir" name="sexo" value="3">
+            <label for="prefiero-no-decir">Prefiero no decir</label><br>
+            <select name="pais" id="pais">
+                <option selected>Argentina</option>
+                <option>Chile</option>
+                <option>Uruguay</option>
+                <option>Peru</option>
+            </select><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </body>
+</html>

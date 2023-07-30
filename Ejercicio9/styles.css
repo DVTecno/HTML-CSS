@@ -1,0 +1,93 @@
+/* Estilos globales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+/* Estilos para el primer párrafo */
+h1 {
+    color: #5C9C9D;
+    /* Verde */
+}
+
+h2 {
+    color: #6068C8;
+}
+
+p strong {
+    color: #A14947;
+    /* Naranja claro */
+}
+
+span.especial {
+    color: #FF5722;
+}
+
+span.destacado {
+    color: #5f3000;
+    /* Naranja oscuro */
+}
+
+p a {
+    color: #9e4e0c;
+    /* Violeta claro */
+}
+
+p a em {
+    font-style: italic;
+    color: #00BCD4;
+    /* Celeste */
+}
+
+/* Estilo para la tabla */
+table {
+    border: 1px solid #e0d9d9;
+    border-collapse: separate;
+    width: 27%;
+}
+
+/* Estilos para el encabezado de la tabla (Título columna 1 y Título columna 2), 
+   Relleno de las filas de la tabla (Título fila 1) y 
+   Estilo para el texto dentro de <strong> en la Título fila 2 */
+thead th.especial,
+tbody tr:nth-child(1) th,
+tbody tr:nth-child(2) strong,
+tfoot th[scope="row"] {
+    color: rgba(252, 129, 14, 0.76);
+    /* Naranja oscuro */
+    border: 2px solid #e0d9d9;
+}
+
+/* Relleno de las filas de la tabla (Título fila 2) y Estilo para el pie de la tabla (Título columna 1 y Título columna 2 del pie) */
+tbody tr:nth-child(2) th,
+tfoot th {
+    color: #dd0000;
+    border: 2px solid #e0d9d9;
+}
+
+
+
+/* Estilo para el texto de los valores en la tabla (sin cambiar el fondo) */
+tbody td {
+    color: #4CAF50;
+    /* Verde */
+    border: 2px solid #e0d9d9;
+}
+
+/* Estilos para el segundo párrafo */
+#adicional {
+    color: #79771b;
+    /* Violeta oscuro */
+}
+
+/* Estilos para el link */
+#adicional a {
+    color: #4CAF50;
+    /* Verde */
+}
+
+/* Estilo para el span con id="especial" */
+#especial {
+    color: rgb(102, 52, 160);
+    /* Amarillo */
+}

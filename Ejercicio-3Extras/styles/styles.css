@@ -1,0 +1,8 @@
+body {
+    background-image: url('/Ejercicio-3Extras/img/fondo.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}

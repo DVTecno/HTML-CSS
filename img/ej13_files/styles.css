@@ -1,0 +1,21 @@
+form {
+    position: center;
+    width: 30%;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    /* Agrega un borde de 1px de grosor */
+    border-radius: 5px;
+    /* Agrega bordes redondeados */
+    padding: 0.5rem;
+    /* Agrega un espacio interno entre el contenido y el borde */
+}
+
+/* Estilos para los elementos del formulario en estado "focus" (cuando están activos) */
+.form-control:focus {
+    border-color: #80bdff;
+    /* Cambia el color del borde al estar en estado "focus" */
+    outline: none;
+    /* Quita el contorno que aparece por defecto al estar en estado "focus" */
+}

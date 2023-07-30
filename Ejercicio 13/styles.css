@@ -1,0 +1,27 @@
+form {
+    position: center;
+    width: 50%;
+}
+
+/* Estilos para el formulario */
+.custom-form {
+    border: 1px solid #ced4da;
+    /* Agrega un borde de 1px de grosor al formulario */
+    border-radius: 5px;
+    /* Agrega bordes redondeados al formulario */
+    padding: 1rem;
+    /* Agrega un espacio interno entre el contenido y el borde del formulario */
+
+    /* Agrega un espacio interno entre el contenido y el borde del formulario */
+    border-bottom: none;
+    /* Elimina la línea de borde inferior */
+}
+
+/* Estilos para el contenedor que envuelve el formulario */
+.container {
+    min-height: 100vh;
+    /* Ajusta la altura del contenedor para ocupar toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

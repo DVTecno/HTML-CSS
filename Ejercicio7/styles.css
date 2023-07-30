@@ -1,0 +1,15 @@
+body {
+    background-color: #530a69;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+h1, h2 {
+    font-family: "Mi primer Style", sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    color: rgb(168, 161, 161);
+}

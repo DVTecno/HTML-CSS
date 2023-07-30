@@ -1,0 +1,25 @@
+/* Estilo normal de los enlaces */
+a:link {
+    color: #CC0000;
+    /* Color del texto en estado normal (rojo) */
+    text-decoration: none;
+    /* Quitamos subrayado del enlace */
+}
+
+/* Estilo al pasar el ratón sobre los enlaces */
+a:hover {
+    background-color: #CC0000;
+    /* Color de fondo al pasar el ratón (rojo) */
+    color: #FFF;
+    /* Color del texto al pasar el ratón (blanco) */
+}
+
+/* link visitado*/
+a:visited {
+    color: rgb(80, 82, 80);
+}
+
+/* link clickeado */
+a:active {
+    color: blue;
+}

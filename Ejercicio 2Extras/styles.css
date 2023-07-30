@@ -1,0 +1,86 @@
+body {
+    padding: 10px 20px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 40%;
+    font-family: Arial, sans-serif;
+}
+
+td,
+th {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 8px;
+}
+
+th[scope="row"] {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 5px;
+}
+
+#tabla-tipos-cambio th.euro {
+    background-image: url("img/euro.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 25px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tabla-tipos-cambio th.dolar {
+    background-image: url("img/dolar.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 25px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tabla-tipos-cambio th.libra {
+    background-image: url("img/libra.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 25px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tabla-tipos-cambio th.yen {
+    
+    background-image: url("img/yen.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+
+    background-size: 25px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFFCC;
+}
+
+th[scope="col"] {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/fondo_gris.gif");
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+th[scope="row"] {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #E6F3FF;
+}
